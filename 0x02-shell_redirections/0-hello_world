@@ -1,2 +1,2 @@
 #!/bin/bash
-lpr 0-hello_world
+cat 0-hello_world  | fmt | pr | lpr
